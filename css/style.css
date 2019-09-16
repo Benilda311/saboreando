@@ -1,0 +1,1279 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,500,500i,600,700,700i,800,800i,900,900i&display=swap');
+
+
+
+@font-face {
+    font-family: 'Mother love';
+    src: url("../fonts/Mother love swash.otf");
+    src: url("../fonts/Mother love.otf");
+		
+		
+}
+
+@font-face{
+	font-family: 'Almaida';
+	src: url("../fonts/Almaida.otf");
+}
+
+
+
+
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	
+}
+
+header{
+
+	background-color: #26180F;
+	padding: 10px 0px;
+	border-bottom: 6px solid #FAAC19;	
+	z-index: 1000;
+}
+
+
+
+.titulo{
+	font-size: 80px;
+	font-family: Mother love;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+.slide{
+	position:relative;
+	border-bottom: 8px solid #FAAC19;
+	
+}
+.slide p{
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
+
+
+#slide-inicio p{
+	font-size: 15px;
+	font-weight: 700px;
+	width: 100%;
+    height: 100vh;
+}
+
+#slide #carousel-bienvenida h1{
+	
+	font-size: 80px;
+	font-family: Mother love;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+
+#slide #carousel-texto h8{
+	
+	font-size: 18px;
+	
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+
+
+
+#slide #carousel-mensaje h2{
+	
+	font-size: 80px;
+	font-family: Mother love;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+
+
+.slide-overlay{ /*transparencia sobre la imagen principal background*/
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.50);
+	padding: 10% 0; 
+	
+}
+
+
+.resaltado-inicio{
+	color: #FAAC19;
+	font-weight: 500;
+}
+
+.derec-resever{
+	color: #FFFFFF;
+	font-weight: 500;
+}
+/*fin de seccion de seccion de slide-inicio*/
+
+
+
+
+
+
+/*inicio de seccion galeria*/
+
+#Galeria{
+background-color: #26180F;
+background-size: cover;
+background-position: top center; 
+padding: 50px 0px;
+border-bottom: 8px solid #FAAC19;
+   
+	
+}
+
+
+
+
+#Galeria h3{
+	font-size: 30px;
+    font-weight: 700;
+	text-align: center;
+	color: #FAAC19;
+	padding: 10px 2px;
+}
+
+
+
+
+
+.galeria{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+.galeria:hover img{
+	
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+
+}
+
+.galeria{
+	position:relative;
+	/*texto sobre imagen y color*/
+}
+
+.galeria-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.74);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+		
+}
+.galeria-texto{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF !important;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+}
+
+
+.galeria-texto h5{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 30px;
+	
+}
+
+.galeria:hover .galeria-fondo,
+.galeria:hover .galeria-texto{
+opacity: 1;
+transition: all 0.2s ease-in;
+}/*final de seccion galeria index*/
+
+
+
+/*inicio de seccion recetas*/
+
+#Recetas{
+	
+	text-align: center;
+	padding: 20px 20px;
+	border-bottom: 8px solid #FAAC19;
+	
+	
+}
+
+
+.bg-recetas{
+	background-image: url("../img/bg_001.jpg");
+	
+}
+
+
+
+
+.recetas-info {
+	background-color: rgba(255,255,255,0.43);
+	padding: 20px 20px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 8px;
+	border-bottom-left-radius: 0px;
+}
+
+
+.recetas-info p{
+	margin-top: 35px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #26180F;
+	font-weight: 500;
+}
+
+.recetas-info h3{
+	font-size: 40px;
+	font-family: Mother love;
+	color: #26180F;
+	text-align: center;
+
+	
+	
+	
+}
+
+
+.btn-amarillo{
+	
+	background-color: #FAAC19;
+	padding: 15px  50px;
+	border-radius: 8px;
+	border-bottom-left-radius: 0px;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.btn-amarillo:hover{
+	background-color: #EB2427;
+	
+}
+/*final de seccion de Recetas*/
+
+
+
+/*inicio segunda pagina*/
+#sec-about{	
+background-color: #26180F;
+text-align: center;
+padding: 40px 0;
+	
+
+}
+
+
+
+
+.subtitulo{
+	font-size: 70px;
+	font-family: Mother love;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.bar-amarilla{
+	height: 10px;
+	background-color: #ffb30e;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:  auto;
+	font-weight: 300;
+	
+}
+
+
+
+.recuadro{
+	font-family: Segoe UI;
+	text-align: justify;
+	font-size: 20px;
+	padding:30px;
+	border-radius: 10px;
+	font-style: normal;
+	background-color: #301E12;
+	
+}
+
+
+
+
+#sec-valores{	
+background-color: #26180F;
+text-align: center;
+top: 0px;
+border-bottom: 8px solid #FAAC19;
+padding: 30px 0;
+}
+
+
+.recuadro-valores{
+	font-family: Segoe UI;
+	text-align: justify;
+	font-size: 20px;
+	padding:20px;
+	border-radius: 10px;
+	font-style: normal;
+	background-color: #301E12;
+	
+}
+.resaltado-valores{
+	padding: 10px;
+}
+/*finaliza la pagina de quienes somos*/
+
+
+/*inicio de pagina productos desayunos*/
+
+
+.slide-productos{
+	position:relative;
+	border-bottom: 8px solid #FAAC19;
+	width: 100%;
+    height: 100vh;
+	
+}
+
+
+#sec-productos{	
+background-color: #301E12;
+text-align: center;
+padding: 60px 0;
+border-bottom: 8px solid #FAAC19;
+    
+}
+
+.galeria-productos{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+.galeria-productos:hover img{
+	
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+
+}
+
+
+
+.galeria-productos{
+	position:relative;
+	
+}
+
+.galeria-cuadro{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.35);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+		
+}
+
+
+.galeria-productos:hover .galeria-cuadro{
+opacity: 1;
+transition: all 0.2s ease-in;
+}/*cierre de pagina de almuerzos*/
+
+.productos-name{
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+
+.productos-precio{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+.btn-cafe{
+	
+	background-color: #FAAC19;
+	padding: 5px  20px;
+	border:none;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 550;
+	text-transform: uppercase;
+	
+	
+}
+
+.btn-cafe:hover{
+	
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+
+.bottom{
+	
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial;
+	color: #26180F; 
+}
+
+
+/*finaliza pagina productos desayunos*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*inicio de pagina almuerzos*/
+
+
+#sec-almuerzos{	
+background-color: #301E12;
+text-align: center;
+padding: 60px 0;
+border-bottom: 8px solid #FAAC19;
+    
+}
+
+
+.galeria-almuerzos{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+.galeria-almuerzos:hover img{
+	
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+
+}
+
+/*secion de almuerzos fondo de transparencia sobre imagen*/
+
+.galeria-almuerzos{
+	position:relative;
+	
+}
+
+.galeria-cuadro{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.35);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+		
+}
+
+
+.galeria-almuerzos:hover .galeria-cuadro{
+opacity: 1;
+transition: all 0.2s ease-in;
+}/*cierre de pagina de almuerzos*/
+
+
+
+
+
+
+
+
+/*comienzo de seccion de postres galeria*/
+#sec-postres{	
+background-color: #301E12;
+text-align: center;
+padding: 60px 0;
+border-bottom: 8px solid #FAAC19;
+    
+}
+
+.galeria-postres:hover img{
+	
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+
+}
+
+
+.galeria-postres{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+
+.galeria-postres{
+	position:relative;
+	
+}
+
+
+
+.galeria-cuadro{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+		
+}
+
+
+.galeria-postres:hover .galeria-cuadro{
+opacity: 1;
+transition: all 0.2s ease-in;
+}/*cierre de seccion de postres*/
+
+
+
+/*Inicio de pagina de contacto*/
+
+
+.resaltado{
+	
+	font-weight: 600;
+color: #f6921e;
+}
+
+
+
+#sec-direccion{
+	
+background-color:  #301E12;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#sec-direccion i{
+	
+	font-size: 50px;
+	color:#ffb30e;
+}
+
+
+#sec-direccion h3{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+
+#sec-direccion p{
+	
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+
+
+
+#sec-direccion .resaltado{
+	
+	
+	color:#ffb30e;
+}
+
+
+/*cierre de seccion de direccion*/
+/*seccion de horarios*/
+
+#sec-horarios{
+	background-color:  #26180F;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 700;
+}
+
+.bar-amarilla-contactos{
+height: 2px;
+	background-color: #ffb30e;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:  auto;
+	font-weight: 100;
+
+}
+
+#sec-horarios h3{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+#sec-horarios p{
+	
+	font-size: 18px;
+}
+
+#sec-horarios i{
+	
+	font-size: 50px;
+	color:#ffb30e;
+}
+
+
+/*fin de seccion de horario*/
+
+/*inicio de seccion de telefonos*/
+
+
+#sec-telefonos{
+	
+	
+	background-color:  #301E12;
+	text-align: center;
+	padding: 50px 0;
+	border-bottom: 8px solid #FAAC19;
+	
+}
+
+
+#sec-telefonos i{
+	
+	font-size: 50px;
+	color:#ffb30e;
+	width: 50%;
+	height: 50%;
+}
+
+
+
+
+#sec-telefonos h3{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.resaltado-telefono{
+color:#ffb30e;
+}
+/*final de seccion de horarios*/
+
+/*seccion formulario*/
+#sec-form{
+	
+		background-image: url("../img/formulario01.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+	text-align: center;
+	border-bottom: 8px solid #FAAC19;
+}
+
+
+#subject{
+	background-color: rgba(255,255,255,0.81);
+	border-radius: 5px;
+	
+}
+
+
+#sec-form h3{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+padding: 20px 0;
+	color:#ffb30e;
+}
+
+#sec-form input, #sec-form  textarea{
+	background-color: rgba(255,255,255,0.81);
+	border-radius: 10px;
+}
+
+#sec-form textarea{
+	
+	height: 300px;
+}
+
+.btn-cafe{
+	background-color: #FAAC19;
+	padding: 5px  20px;
+	border:none;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 550;
+	text-transform: uppercase;
+	
+}
+
+
+
+.btn-cafe:hover{
+	
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+
+
+
+
+/*fseccion de formulario*/
+
+#sec-map{
+	
+	
+	border-bottom: 8px solid #FAAC19;
+}
+
+/*fin de seccion de formulario*/
+
+
+/*INICIO DE SECCION CAFE*/
+
+#sec-cafe{	
+background-color: #301E12;
+text-align: center;
+padding: 60px 0;
+border-bottom: 8px solid #EB2427;
+    
+}
+
+.galeria-cafe:hover img{
+	
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+
+}
+
+
+.galeria-cafe{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+
+.galeria-cafe{
+	position:relative;
+	
+}
+
+
+
+.galeria-cuadro{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 1000;
+		
+}
+
+
+.galeria-cafe:hover .galeria-cuadro{
+opacity: 1;
+transition: all 0.2s ease-in;
+	}
+
+/*FIN DE SECCION CAFE*/
+
+
+
+/*ESTILOS PARA BREADCRUMB*/
+
+
+#sec-breadcrumb{
+	
+/*	padding: 5px;*/
+	margin-bottom: 0;
+	background-color:#301E12;	
+	font-size: 8px;
+	color: #fff;
+}
+
+#sec-breadcrumb .breadcrumb{
+	
+	
+	background-color:#301E12;
+	margin-bottom: 0;
+	
+}
+
+#sec-breadcrumb a{
+	font-size: 12px;
+	color:#FFFFFF;
+}
+
+#sec-breadcrumb li{
+	font-size: 12px;
+	
+}
+
+
+
+/*tienda*/
+
+#carousel-shop{
+	border-bottom: 2px solid #FAAC19;
+}
+
+
+#carousel-shop h2{
+	font-size: 60px;	
+	color: #fff;
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: Mother love;
+}
+
+.cuadro-marron{
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(55,23,17,0.60);
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+
+	
+}
+
+.btn-shop{
+	background-color:#301E12;
+	color: #fff;
+	border: 0;
+	margin: 0;
+	padding: 7px;
+	font-style: normal;
+}
+
+.contenido{
+	text-align: centro;
+	font-size: 18px;
+	font-weight: 400;
+	
+}
+
+#shop img{
+	padding: 60px;
+}
+
+#shop{
+	background: #301E12;
+	padding:40px 0;
+	border-bottom: 8px solid #FAAC19;
+}
+
+
+
+#shop h2{
+	font-family: Mother love;
+	text-align: center;
+	
+	color:#FAAC19;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+#shop p{
+	
+	text-align: justify;
+	padding: 10px;
+	color: #fff;
+
+}
+
+#shop h3{
+	font-family: Mother love;
+	text-align: center;
+	
+	
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.bar-shop{
+	background-color: #FAAC19;
+	background-size: cover;
+	height:5px;
+	margin-top: -2px;
+	margin-bottom: 20px;
+}
+
+#shop h4{
+	font-family: Helvetica;
+	text-align: center;
+	padding-top: 5px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+
+
+.contenido{
+	background-color: #faf6c0;
+	color: #FFFFFF;
+	}
+
+
+/*Página shop*/
+#carousel-shop h1{
+	font-family: Dancing Script OT;
+	font-size: 100px;
+	color: #ffffbd;
+}
+#carousel-shop h2{
+	font-size: 60px;	
+	color: #ffffbd;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.cuadro-marron{
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(55,23,17,0.70);
+	padding: 10px 15px;
+	color: #fff;
+	text-align: justify;
+	
+}
+
+.btn-shop{
+	background-color:#e2717e;
+	color: #fff;
+	border: 0;
+	margin: 0;
+	padding: 7px;
+	font-style: normal;
+}
+
+
+/*Sec-Productos*/
+
+
+
+
+
+/*MEDIA QUERY PARA INDEX*/
+@media (max-width:480px) and (max-width:648px){
+	
+
+	
+	
+	#carousel-repost h1{
+		
+		font-size: 35px;
+		text-align: center;
+				
+
+	}
+	
+	
+	#carousel-repost p{
+		
+		display: none;
+		
+	}
+	
+
+}
+
+/*Media queries pagina de productos*/
+@media (max-width:480px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+}
+	
+@media (max-width:480px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+@media (max-width:768px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+
+@media (max-width:1020px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+@media (max-width:1200px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+	background-color: #26180F;
+	text-align: center;
+	padding: 10px 0;
+	
+}
+.redes{
+	margin: 15px 0;
+}
+
+.redes li{
+	display: inline-block;
+	font-size: 25px;
+}
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.redes a:hover{
+	background-color: #fff;
+	color: #FAAC19;
+	transition: all ease 0.3s;
+}
+
+
+
+
+footer p a{
+	color: #EB2427;
+	font-weight: 400;
+	
+}
+
+footer p a:hover{
+	color: #EB2427;
+	
+}
+
+
+@media (max-width:768px){
+	
+	#carousel-caption .let-script{
+		
+		font-size: 20px;
+	}
+	
+	
+	
+	#carousel-caption .let-script{
+		
+		font-size: 10px;
+			padding: 15px 0px 10px 0px   ;
+		
+		
+		
+	}
+	
+#sec-home h5{
+		
+		font-size: 8px;
+			padding: 15px 0px 10px 0px   ;
+		
+		
+		
+	}
+	
+}
+
+
+
+/*DISPOSITIVOS IPHONE 5/SE*/
+
+
+@media (max-width:320px){
+	
+	#carousel-caption .let-script{
+		
+		font-size: 20px;
+	}
+	
+	
+	
+}
+

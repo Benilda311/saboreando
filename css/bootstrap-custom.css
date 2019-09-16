@@ -1,0 +1,190 @@
+
+
+a{
+	outline:0 !important;	
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;	
+	letter-spacing: 1px;
+	
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+	color:#FFFFFF;	
+	font-weight:700;
+	text-transform: uppercase;
+	font-size: 15px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.50);
+	/*etiqueta para elaborar sombra de la caja*/
+	
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#FFFFFF;
+	border-bottom: 7px solid #EB2427;
+	background-color: #FAAC19;
+	transition: 0.4s; 
+	/*border sobre la caja*/
+	
+}
+
+
+
+
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #FFFFFF;	
+	
+}
+
+
+.navbar-light .navbar-nav .active .nav-link:hover{
+	
+	color: #EB2427;	
+}
+
+
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #EB2427;	
+}
+
+
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: #EB2427;
+}
+
+
+
+
+.dropdown-menu{
+	background-color:#FAAC19;
+	border:0;
+}
+
+
+
+
+.dropdown-menu .dropdown-item{
+	font-weight:550!important;	
+	font-weight:500!important;	
+	color:#EB2427;
+	
+	
+}
+
+
+
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#301E12;
+	
+	
+	
+	
+}
+
+
+
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #EB2427;
+  
+}
+
+.navbar-light .navbar-toggler{
+	background-color: #EB2427;
+	border:3px solid #EB2427;
+
+}
+
+
+
+
+
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: #FAAC19;
+	cursor:pointer;
+	
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #EB2427;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#EB2427;		
+	height: auto;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#FAAC19;
+}
+.navbar-light .navbar-brand img{
+	max-width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*carusel elaborado con ayuda de internet, ya que en el mockup se habia hecho asi*/
+
+.carousel-caption{
+	top:50%;
+	left: 50%;
+	bottom: inherit;
+	transform: translate(-50%,-50%);
+}
+
+
+
+.carousel-indicators li {
+    border-radius: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: #26180F;
+}
+
+.carousel-indicators .active {
+    background-color: #FAAC19;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
